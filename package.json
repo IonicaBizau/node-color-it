@@ -1,0 +1,32 @@
+{
+  "name": "color-it",
+  "version": "1.0.0",
+  "description": "Flat colors for your Node.js strings.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/node-color-it.git"
+  },
+  "keywords": [
+    "colors",
+    "flat",
+    "strings"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-color-it/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-color-it#readme",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "couleurs": "^5.0.0",
+    "flat-colors": "^3.0.0"
+  },
+  "devDependencies": {}
+}
