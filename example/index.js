@@ -9,13 +9,13 @@ console.log("Hello " + ColorIt("World").orange().wetAsphaltBg() + "!");
 // Rainbow!
 console.log(
     ColorIt("Flat Colors Rainbow: ").gray()
-  + "\n" + ColorIt("              ").red().redBg() + " " + ColorIt("Red").red()
-  + "\n" + ColorIt("              ").orange().orangeBg() + " " + ColorIt("Orange").orange()
-  + "\n" + ColorIt("              ").yellow().yellowBg() + " " + ColorIt("Yellow").yellow()
-  + "\n" + ColorIt("              ").green().greenBg() + " " + ColorIt("Green").green()
-  + "\n" + ColorIt("              ").blue().blueBg() + " " + ColorIt("Blue").blue()
-  + "\n" + ColorIt("              ").purple().purpleBg() + " " + ColorIt("Purple").purple()
-  + "\n" + ColorIt("              ").indigo().indigoBg() + " " + ColorIt("Indigo").indigo()
+  + "\n" + ColorIt(" ".repeat(7)).red().redBg() + " " + ColorIt("Red").red()
+  + "\n" + ColorIt(" ".repeat(7)).orange().orangeBg() + " " + ColorIt("Orange").orange()
+  + "\n" + ColorIt(" ".repeat(7)).yellow().yellowBg() + " " + ColorIt("Yellow").yellow()
+  + "\n" + ColorIt(" ".repeat(7)).green().greenBg() + " " + ColorIt("Green").green()
+  + "\n" + ColorIt(" ".repeat(7)).blue().blueBg() + " " + ColorIt("Blue").blue()
+  + "\n" + ColorIt(" ".repeat(7)).purple().purpleBg() + " " + ColorIt("Purple").purple()
+  + "\n" + ColorIt(" ".repeat(7)).indigo().indigoBg() + " " + ColorIt("Indigo").indigo()
 );
 
 var allColors = ""
