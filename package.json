@@ -24,13 +24,14 @@
   "directories": {
     "example": "example"
   },
-  "dependencies": {
-    "couleurs": "^5.0.0",
-    "flat-colors": "^3.0.0"
-  },
   "devDependencies": {},
   "blah": {
     "h_img": "http://i.imgur.com/Mks97iZ.png",
     "ex_img": "http://i.imgur.com/MsZii96.png"
+  },
+  "dependencies": {
+    "couleurs": "^5.0.0",
+    "flat-colors": "^3.1.0",
+    "iterate-object": "^1.1.0"
   }
 }
