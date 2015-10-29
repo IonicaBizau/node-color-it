@@ -30,6 +30,7 @@
   },
   "devDependencies": {},
   "blah": {
-    "h_img": "http://i.imgur.com/Mks97iZ.png"
+    "h_img": "http://i.imgur.com/Mks97iZ.png",
+    "ex_img": "http://i.imgur.com/MsZii96.png"
   }
 }
