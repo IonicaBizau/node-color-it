@@ -27,7 +27,8 @@
   "devDependencies": {},
   "blah": {
     "h_img": "http://i.imgur.com/Mks97iZ.png",
-    "ex_img": "http://i.imgur.com/MsZii96.png"
+    "ex_img": "http://i.imgur.com/MsZii96.png",
+    "description": "This library uses the flat colors taken from [flatuicolors.com](http://flatuicolors.com). For low-level libraries, check out [`flat-colors.js`](https://github.com/IonicaBizau/flat-colors.js) and [`node-couleurs`](https://github.com/IonicaBizau/node-couleurs)."
   },
   "dependencies": {
     "couleurs": "^5.0.0",

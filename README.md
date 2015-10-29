@@ -3,6 +3,8 @@
 # color-it [![Support this project][donate-now]][paypal-donations]
 Flat colors for your Node.js strings.
 
+This library uses the flat colors taken from [flatuicolors.com](http://flatuicolors.com). For low-level libraries, check out [`flat-colors.js`](https://github.com/IonicaBizau/flat-colors.js) and [`node-couleurs`](https://github.com/IonicaBizau/node-couleurs).
+
 [![color-it](http://i.imgur.com/MsZii96.png)](#)
 
 ## Installation
