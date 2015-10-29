@@ -28,5 +28,8 @@
     "couleurs": "^5.0.0",
     "flat-colors": "^3.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "blah": {
+    "h_img": "http://i.imgur.com/Mks97iZ.png"
+  }
 }
