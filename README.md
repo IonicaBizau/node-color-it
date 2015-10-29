@@ -1,5 +1,9 @@
-# color-it [[Donate now][donate-now]][paypal-donations]
+[![color-it](http://i.imgur.com/Mks97iZ.png)](#)
+
+# color-it [![Support this project][donate-now]][paypal-donations]
 Flat colors for your Node.js strings.
+
+[![color-it](http://i.imgur.com/MsZii96.png)](#)
 
 ## Installation
 
@@ -79,7 +83,7 @@ Also, the following methods are aliased, for convenience:
  - `green` :arrow_right: `emerland`
  - `blue` :arrow_right: `peterRiver`
  - `purple` :arrow_right: `amethyst`
- - `indigo` :arrow_right: `midnightBlue`
+ - `indigo` :arrow_right: `wisteria`
  - `gray` :arrow_right: `concrete`
 
 If you need to change the background color, add the `Bg` suffix to the
