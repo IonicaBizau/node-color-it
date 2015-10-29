@@ -82,6 +82,10 @@ Also, the following methods are aliased, for convenience:
  - `indigo` :arrow_right: `midnightBlue`
  - `gray` :arrow_right: `concrete`
 
+If you need to change the background color, add the `Bg` suffix to the
+method name (e.g. `orange` is for foreground, `orangeBg` is for
+background).
+
 #### Params
 - **String** `text`: The text to color.
 
