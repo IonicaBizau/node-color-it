@@ -18,9 +18,11 @@ console.log(
   + "\n" + ColorIt(" ".repeat(7)).indigo().indigoBg() + " " + ColorIt("Indigo").indigo()
 );
 
+// All the available colors
 var allColors = ""
   , newLine = false
   ;
+
 IterateObject(ColorIt.prototype, function (_, c) {
     allColors += ColorIt("ColorIt." + c + "()")[c]() + " ";
     if (!!(newLine = !newLine)) {
