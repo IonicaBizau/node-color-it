@@ -1,8 +1,8 @@
 [![color-it](http://i.imgur.com/Mks97iZ.png)](#)
 
-# color-it [![Support this project][donate-now]][paypal-donations]
+# color-it [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/color-it.svg)](https://www.npmjs.com/package/color-it) [![Downloads](https://img.shields.io/npm/dt/color-it.svg)](https://www.npmjs.com/package/color-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Flat colors for your Node.js strings.
+> Flat colors for your Node.js strings.
 
 This library uses the flat colors taken from [flatuicolors.com](http://flatuicolors.com). For low-level libraries, check out [`flat-colors.js`](https://github.com/IonicaBizau/flat-colors.js) and [`node-couleurs`](https://github.com/IonicaBizau/node-couleurs).
 
@@ -112,7 +112,9 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`tester`](https://github.com/IonicaBizau/tester#readme)
+ - [`benchtable`](https://github.com/izuzak/benchtable) by Ivan Zuzak
+
+ - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)
 
 ## License
 
