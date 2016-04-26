@@ -1,3 +1,4 @@
+
 [![color-it](http://i.imgur.com/Mks97iZ.png)](#)
 
 # color-it [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/color-it.svg)](https://www.npmjs.com/package/color-it) [![Downloads](https://img.shields.io/npm/dt/color-it.svg)](https://www.npmjs.com/package/color-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
@@ -8,13 +9,16 @@ This library uses the flat colors taken from [flatuicolors.com](http://flatuicol
 
 [![color-it](http://i.imgur.com/MsZii96.png)](#)
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save color-it
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -51,7 +55,8 @@ IterateObject(ColorIt.prototype, function (_, c) {
 console.log("All the possible colors:\n" + allColors);
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `ColorIt(text)`
 Creates a new `ColorIt` instance.
@@ -106,17 +111,19 @@ just by concatenating the `ColorIt` instance with another string).
 #### Return
 - **String** Stringifies the data using ANSI styles.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`benchtable`](https://github.com/izuzak/benchtable) by Ivan Zuzak
 
- - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)
+ - [`benchtable`](https://github.com/izuzak/benchtable) (by Ivan Zuzak)—Benchmark.js results in ascii tables for NodeJS
+ - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)—Logging library based on flat colors and Emoji.
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
