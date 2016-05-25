@@ -33,7 +33,8 @@
   "dependencies": {
     "couleurs": "^5.0.0",
     "flat-colors": "^3.1.0",
-    "iterate-object": "^1.1.0"
+    "iterate-object": "^1.1.0",
+    "typpy": "^2.3.3"
   },
   "files": [
     "bin/",
