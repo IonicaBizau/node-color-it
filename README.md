@@ -23,24 +23,23 @@ $ npm i --save color-it
 
 
 ```js
-// Dependencies
-var ColorIt = require("color-it")
-  , IterateObject = require("iterate-object")
-  ;
+const colorIt = require("color-it")
+    , iterateObj = require("iterate-object")
+    ;
 
 // Red on dark blue
-console.log("Hello " + ColorIt("World").orange().wetAsphaltBg() + "!");
+console.log("Hello " + colorIt("World").orange().wetAsphaltBg() + "!");
 
 // Rainbow!
 console.log(
-    ColorIt("Flat Colors Rainbow: ").gray()
-  + "\n" + ColorIt(" ".repeat(7)).red().redBg() + " " + ColorIt("Red").red()
-  + "\n" + ColorIt(" ".repeat(7)).orange().orangeBg() + " " + ColorIt("Orange").orange()
-  + "\n" + ColorIt(" ".repeat(7)).yellow().yellowBg() + " " + ColorIt("Yellow").yellow()
-  + "\n" + ColorIt(" ".repeat(7)).green().greenBg() + " " + ColorIt("Green").green()
-  + "\n" + ColorIt(" ".repeat(7)).blue().blueBg() + " " + ColorIt("Blue").blue()
-  + "\n" + ColorIt(" ".repeat(7)).purple().purpleBg() + " " + ColorIt("Purple").purple()
-  + "\n" + ColorIt(" ".repeat(7)).indigo().indigoBg() + " " + ColorIt("Indigo").indigo()
+    colorIt("Flat Colors Rainbow: ").gray()
+  + "\n" + colorIt(" ".repeat(7)).red().redBg() + " " + colorIt("Red").red()
+  + "\n" + colorIt(" ".repeat(7)).orange().orangeBg() + " " + colorIt("Orange").orange()
+  + "\n" + colorIt(" ".repeat(7)).yellow().yellowBg() + " " + colorIt("Yellow").yellow()
+  + "\n" + colorIt(" ".repeat(7)).green().greenBg() + " " + colorIt("Green").green()
+  + "\n" + colorIt(" ".repeat(7)).blue().blueBg() + " " + colorIt("Blue").blue()
+  + "\n" + colorIt(" ".repeat(7)).purple().purpleBg() + " " + colorIt("Purple").purple()
+  + "\n" + colorIt(" ".repeat(7)).indigo().indigoBg() + " " + colorIt("Indigo").indigo()
 );
 
 // All the available colors
@@ -48,8 +47,8 @@ var allColors = ""
   , newLine = false
   ;
 
-IterateObject(ColorIt.prototype, function (_, c) {
-    allColors += ColorIt("ColorIt." + c + "()")[c]() + " ";
+iterateObj(colorIt.prototype, function (_, c) {
+    allColors += colorIt("colorIt." + c + "()")[c]() + " ";
     if (!!(newLine = !newLine)) {
         allColors += "\n";
     }
