@@ -31,7 +31,7 @@
     "description": "This library uses the flat colors taken from [flatuicolors.com](http://flatuicolors.com). For low-level libraries, check out [`flat-colors.js`](https://github.com/IonicaBizau/flat-colors.js) and [`node-couleurs`](https://github.com/IonicaBizau/node-couleurs)."
   },
   "dependencies": {
-    "couleurs": "^5.0.0",
+    "couleurs": "^6.0.6",
     "flat-colors": "^3.1.0",
     "iterate-object": "^1.1.0",
     "typpy": "^2.3.3"
