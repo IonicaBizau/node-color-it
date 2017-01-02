@@ -1,6 +1,6 @@
 {
   "name": "color-it",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Flat colors for your Node.js strings.",
   "main": "lib/index.js",
   "scripts": {
