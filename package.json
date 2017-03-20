@@ -1,6 +1,6 @@
 {
   "name": "color-it",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Flat colors for your Node.js strings.",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "flat",
     "strings"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-color-it/issues"
@@ -40,12 +40,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
