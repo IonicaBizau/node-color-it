@@ -43,6 +43,7 @@ method name (e.g. `orange` is for foreground, `orangeBg` is for
 background).
 
 #### Params
+
 - **String** `text`: The text to color.
 
 #### Return
