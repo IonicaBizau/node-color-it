@@ -1,6 +1,6 @@
 {
   "name": "color-it",
-  "version": "1.2.12",
+  "version": "1.2.13",
   "description": "Flat colors for your Node.js strings.",
   "main": "lib/index.js",
   "scripts": {
@@ -47,6 +47,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
